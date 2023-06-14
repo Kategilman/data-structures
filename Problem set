@@ -1,0 +1,32 @@
+public class ProblemSet {
+    public static int lettersInCommon(String1, String2){
+
+        List<String> commonletters = new ArrayList<>();
+        
+        for (int i=0; i<String1.length;i++){
+               char eachLetter = String1.get(i);
+            for(int j=0; j<=String2.length; j++){
+                if(char eachLetter = String2.get(j)){
+                    commonletters.add(j);
+                    //System.out.println(j);
+                 }
+             }
+          }
+          System.out.println(commonletters "are in common!");
+          if(commonletters.isEmpty()){
+            System.out.println("None");
+          }
+    }
+
+    public static int aimToTen(int[] marks){
+        int gradesAmount = new String();
+
+      }
+
+        public static void main(String[] args){
+        int test1 = lettersInCommon("horse", "mouse");
+        System.out.println(test1);
+
+    }
+
+}

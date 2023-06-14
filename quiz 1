@@ -1,0 +1,23 @@
+public class ProblemSet {
+    public static int lettersInCommon(String1, String2){
+
+        List<String> commonletters = new ArrayList<>();
+        
+        for (int i=0; i<=String1.length;i++){
+               char eachLetter = String1.get(i);
+            for(int j=0; j<=String2.length; j++){
+                if(char = String2.get(j)){
+                    System.out.println(j);
+                 }
+             }
+          }
+    }
+
+
+    public static void main(String[] args){
+        int test1 = lettersInCommon("horse", "mouse");
+        System.out.println(test1);
+
+    }
+
+}
